@@ -8,30 +8,50 @@
     <script src="./tailwind/index.js"></script>
     <title>Document</title>
   </head>
-  <body class="bg-slate-50">
-
-    <div class="bg-cyan-500 h-[20px]"></div>
-    <div class="grid grid-cols-3 gap-4 content-center bg-black">
-      <div class="col-span-1 h-[160px] grid grid-cols-1 place-items-center">
+  <body class="bg-slate-50  m-2">
+    <header>
+      <div class="bg-cyan-600 h-[5px]"></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 content-center bg-slate-700">
+        <div class="col-span-1 h-[160px] grid grid-cols-1 place-items-center">
+          
+          <img class="h-[120px] rounded-full " src="./img/tariba.png" />
         
-        <img class="h-[120px] " src="./img/tariba.png" />
-      
-      </div>
-      <div class="col-span-2 h-[160px] grid grid-cols-1">
-        <div class="h-[40px] rounded-md m-auto place-self-center w-[60%] flex">
-          <button class="rounded-l-lg text-black bg-cyan-500 h-full flex-none w-[120px]">Categorías</button>
-          <input class="rounded-r-lg grow border-solid border-2 border-black-600 p-3"/>
+        </div>
+        <div class="col-span-2 h-[160px] grid grid-cols-1">
+          <div class="h-[40px] rounded-md m-auto place-self-center w-auto flex">
+            <button class="rounded-l-lg text-black bg-cyan-600 h-full  w-[120px] ">
+              Búsquedad</button>
+            <input class="rounded-r-lg grow border-solid border-2 border-black-600 p-3"/>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="flex leading-8 bg-slate-50 "  >
-      <a class="rounded-lg cursor-pointer flex-none w-60 h-10 bg-cyan-500 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700 "> Inicio </a>
-      <a class="rounded-lg cursor-pointer w-60 bg-cyan-500 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Quienes somos</a>
-      <a class="rounded-lg cursor-pointer w-60 bg-cyan-500 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Categoría</a>
-      <a class="rounded-lg cursor-pointer w-60 bg-cyan-500 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Compras</a>
-      <a class="rounded-lg cursor-pointer w-60 bg-cyan-500 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Contacto</a>
-      <a class="rounded-lg cursor-pointer w-60 bg-cyan-500 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Ingreso</a>
-   
-    </div>
+      <div class="flex leading-8 bg-slate-50 md:flex-row flex-col"  >
+        <a class="rounded-lg cursor-pointer w-auto md:w-60 bg-cyan-600 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700 "> Inicio </a>
+        <a class="rounded-lg cursor-pointer w-auto md:w-60 bg-cyan-600 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700" href="./index2.html"> Quienes somos</a>
+        <a class="rounded-lg cursor-pointer w-auto md:w-60 bg-cyan-600 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Categoría</a>
+        <a class="rounded-lg cursor-pointer w-auto md:w-60 bg-cyan-600 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Compras</a>
+        <a class="rounded-lg cursor-pointer w-auto md:w-60 bg-cyan-600 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700"> Contacto</a>
+        <a class="rounded-lg cursor-pointer w-auto md:w-60 bg-cyan-600 mx-0.5 text-center border-solid border-2 border-white hover:bg-sky-700 ">
+          <div class=" w-auto  inline-block"><img class="h-[20px] inline-block" src="./img/login.png"/></div> 
+          <div class="w-auto inline-block text-center ">Ingreso </div>
+        </a>
+      </div>
+    </header>
+    <article>
+      <div class="flex md:flex-row flex-col"> 
+        <div class="py-10 pl-10  inline-block " >
+            <img src="./img/roca.png" class=" md:flex-col flex-row inline-block w-[800px] h-[300px] ">
+         </div>
+         <div class="md:flex-row flex-col w-auto m-4  pt-[20px] ">Somos una empresa de venta de ropa deportiva y artículos, adquiridos de los mejores en el mercado debido a su 
+          originalidad y disposición de todo tipo de clientela.
+         </div>
+      </div>
+     
+    </article>
+
+  
+
+    
+
   </body>
 </html>
